@@ -7,6 +7,7 @@ definition(
   singleInstance: true,
   iconUrl: "https://raw.githubusercontent.com/myrison/hubitat-roomie-integration/main/icons/roomie_logo.png",
   iconX2Url: "https://raw.githubusercontent.com/myrison/hubitat-roomie-integration/main/icons/roomie_logo_2x.png",
+  documentationLink: "https://github.com/myrison/hubitat-roomie-integration",
 )
 
 private String h2(String txt) {
