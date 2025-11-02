@@ -1,9 +1,9 @@
-# Roomie + Hubitat: For Easy Integration With Alexa
+# Roomie Remote + Hubitat: For Easy Integration With Alexa
 
-**Background:** Amazon [dropped support](https://forum.roomieremote.com/t/original-alexa-skill-will-stop-working-on-november-1-2025/6154) for Roomie's original Simple Control skill in November, 2025.  Their other Alexa skill "Roomie Remote" suffers from various usability challenges that make it cumbersome to use.
+**Background:** Amazon [dropped support](https://forum.roomieremote.com/t/original-alexa-skill-will-stop-working-on-november-1-2025/6154) for Roomie Remote's original Simple Control skill in November, 2025.  Their other Alexa skill "Roomie Remote" suffers from various usability challenges that make it cumbersome to use (at the time of this repo's creation, Alexa insists on starting every conversation with "handing off the request to the "Roomie Remote app," or something similar, making the simple act of turning on the TV far more involved than it should be.
 
 **Goals:** 
-- Say “Alexa, turn on _X_” to start a Roomie activity by UUID, and “turn off _X_” to call the room’s **System Off** UUID.  
+- Say “Alexa, turn on _X_” to start a Roomie activity by UUID, and “turn off _X_” to call the room’s **System Off** UUID.  Alexa responds with nothing more than a confirmation beep and the device turns on.
 - Simplify import of many devices at once
 - No reliance on managing existing state or on state change.  Simply turn on/off based on the request.  
 
