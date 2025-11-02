@@ -5,8 +5,8 @@ definition(
   description: "Bulk import Roomie activities as Alexa-controllable virtual switches.",
   category: "Convenience",
   singleInstance: true,
-  iconUrl: "https://raw.githubusercontent.com/myrison/hubitat-roomie-integration/main/icons/roomie_logo2_x.png",
-  iconX2Url: "https://raw.githubusercontent.com/myrison/hubitat-roomie-integration/main/icons/roomie_logo.png",
+  iconUrl: "https://raw.githubusercontent.com/myrison/hubitat-roomie-integration/main/icons/roomie_logo.png",
+  iconX2Url: "https://raw.githubusercontent.com/myrison/hubitat-roomie-integration/main/icons/roomie_logo_2x.png",
 )
 
 private String h2(String txt) {
